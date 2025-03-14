@@ -9,7 +9,7 @@ import (
 func main() {
 	r := gin.Default()
 
-	//
+	//cambio ramdom
 
 	r.GET("/status", func(ctx *gin.Context) {
 		ctx.JSON(http.StatusOK, map[string]string{"status": "OK"})
